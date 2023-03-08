@@ -1,13 +1,16 @@
 # Wave Function Collpase
+This is an image generator based on input tiles that have certain border rules.
 You can read more about it here:
-https://en.wikipedia.org/wiki/Wave_function_collapse
+[Wikipedia page](https://en.wikipedia.org/wiki/Wave_function_collapse)
 
 And visit GitHub repo about it:
-https://github.com/mxgmn/WaveFunctionCollapse
+[WFC github page](https://github.com/mxgmn/WaveFunctionCollapse)
 
 ## Result demo with backtracking
-### More information with explenation below ⬇⬇⬇
-![GIF animation of WFC algorithm](results/WithBacktracking/result.gif)  
+GIF presented below is a result of final version of the project with implemented backtracking for 14 tiles in 40x40 grid.
+<p align="center">
+<img src="results/WithBacktracking/result.gif" width="400" height="400">
+</p>
 
 ## First working result - no backtracking
 Used tiles:  
@@ -16,7 +19,10 @@ Used tiles:
 ![Tile2](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/img/lines/2.png "Tile 2")  
 After loading tiles with boundaries, algorithm computes all possible rotations. 
 Example result for 5x5 grid:
-![Result](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/results/V1%20-%20No%20backtracking/result.png "Result")
+<p align="center">
+<img src="https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/results/V1%20-%20No%20backtracking/result.png" width="400" height="400">
+</p>
+
 ## Second example - no backtracking
 Used tiles:  
 ![Tile0](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/img/Circuit/0.png "Tile 0")
@@ -35,7 +41,9 @@ Used tiles:
 ![Tile13](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/img/Circuit/13.png "Tile 13")  
 After loading tiles with boundaries, algorithm computes all possible rotations. 
 Example result for 10x10 grid:
-![Result](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/results/V1%20-%20No%20backtracking/circuitResult.png "Result")
+<p align="center">
+<img src="https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/results/V1%20-%20No%20backtracking/circuitResult.png" width="400" height="400">
+</p>
 
 ## Third example - with implemented backtracking
 Backtracking done recursivly by solve function  
@@ -56,4 +64,6 @@ Used tiles:
 ![Tile13](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/img/Circuit/13.png "Tile 13")  
 After loading tiles with boundaries, algorithm computes all possible rotations. 
 Example result for 40x40 grid:
-![Result](https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/results/WithBacktracking/circuitResultBacktrack.png "Result")
+<p align="center">
+<img src="https://github.com/nowakkuba99/SDL/blob/main/WaveFunctionsCollapse/results/WithBacktracking/circuitResultBacktrack.png" width="400" height="400">
+</p>
