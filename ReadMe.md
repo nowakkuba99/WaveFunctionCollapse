@@ -1,5 +1,6 @@
 # Wave Function Collpase
 This is an image generator based on input tiles that have certain border rules.
+Build in C++ with SDL library, runs on all platforms with attached makefile.
 You can read more about it here:
 [Wikipedia page](https://en.wikipedia.org/wiki/Wave_function_collapse)
 
